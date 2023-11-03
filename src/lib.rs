@@ -58,7 +58,7 @@ extern crate embedded_hal as hal;
 
 mod ak8963;
 mod conf;
-mod device;
+pub mod device;
 mod types;
 
 #[cfg(feature = "dmp")]
